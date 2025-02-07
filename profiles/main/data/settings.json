@@ -104,12 +104,6 @@
     "interactiveWindow.executeWithShiftEnter": false,
     "julia.enableTelemetry": false,
     "julia.symbolCacheDownload": true,
-    "jupyter.askForKernelRestart": false,
-    "jupyter.interactiveWindow.creationMode": "perFile",
-    "jupyter.widgetScriptSources": [
-        "jsdelivr.com",
-        "unpkg.com"
-    ],
     "launch": {
         "configurations": []
     },
@@ -132,11 +126,13 @@
     "rust-analyzer.check.command": "clippy",
     "search.useGlobalIgnoreFiles": true,
     "security.workspace.trust.untrustedFiles": "open",
-    "sync.autoDownload": true,
-    "sync.gist": "823c2d92cb927d5043d58843710e65d3",
-    "sync.quietSync": true,
-    "syncSettings.resources": ["extensions", "keybindings", "settings", "snippets"],
     "syncSettings.keybindingsPerPlatform": true,
+    "syncSettings.resources": [
+        "extensions",
+        "keybindings",
+        "settings",
+        "snippets"
+    ],
     "terminal.integrated.commandsToSkipShell": [
         "language-julia.interrupt"
     ],
