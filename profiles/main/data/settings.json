@@ -1,0 +1,149 @@
+{
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+    "autoDocstring.docstringFormat": "sphinx-notypes",
+    "basedpyright.analysis.diagnosticMode": "workspace",
+    "basedpyright.analysis.inlayHints.callArgumentNames": false,
+    "basedpyright.analysis.inlayHints.genericTypes": true,
+    "cSpell.languageSettings": [
+        {
+            "languageId": "markdown"
+        },
+        {
+            "ignoreRegExpList": [
+                "markdownInlineCode",
+                "docTest",
+                "reStructureParam"
+            ],
+            "includeRegExpList": [
+                "pythonDocstring",
+                "comments"
+            ],
+            "languageId": "python",
+            "patterns": [
+                {
+                    "name": "markdownInlineCode",
+                    "pattern": "/`[^`]*`/gi"
+                },
+                {
+                    "name": "docTest",
+                    "pattern": "/>>>.*/gi"
+                },
+                {
+                    "name": "reStructureParam",
+                    "pattern": "/:(param|return) [^:]*:/gi"
+                },
+            ]
+        }
+    ],
+    "cSpell.userWords": [
+        "Rennweg",
+        "qubit",
+        "qubits",
+        "OpenQASM",
+        "cnot",
+        "plaquette",
+        "plaquettes",
+        "eigenstate",
+        "eigenstates",
+        "Qiskit",
+        "clbit",
+        "clbits",
+        "cbit",
+        "cbits"
+    ],
+    "debug.allowBreakpointsEverywhere": true,
+    "debugpy.debugJustMyCode": false,
+    "editor.accessibilitySupport": "off",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        100
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/*.egg-info": true,
+        "**/.idea": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/.ruff_cache": true,
+        "**/__pycache__": true
+    },
+    "files.insertFinalNewline": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.mergeEditor": true,
+    "git.openDiffOnClick": true,
+    "git.openRepositoryInParentFolders": "never",
+    "git.replaceTagsWhenPull": true,
+    "gitlens.views.commitDetails.files.layout": "tree",
+    "gitlens.views.scm.grouped.views": {
+        "branches": true,
+        "commits": true,
+        "contributors": true,
+        "launchpad": true,
+        "remotes": true,
+        "repositories": false,
+        "searchAndCompare": false,
+        "stashes": true,
+        "tags": true,
+        "worktrees": true
+    },
+    "interactiveWindow.executeWithShiftEnter": false,
+    "julia.enableTelemetry": false,
+    "julia.symbolCacheDownload": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "launch": {
+        "configurations": []
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    },
+    "python.REPL.sendToNativeREPL": true,
+    "python.terminal.executeInFileDir": false,
+    "python.testing.cwd": "",
+    "python.testing.pytestArgs": [
+        "-vv",
+        "-s"
+    ],
+    "python.testing.pytestEnabled": true,
+    "redhat.telemetry.enabled": false,
+    "ruff.configurationPreference": "filesystemFirst",
+    "ruff.importStrategy": "fromEnvironment",
+    "ruff.lineLength": 100,
+    "rust-analyzer.check.command": "clippy",
+    "search.useGlobalIgnoreFiles": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "sync.autoDownload": true,
+    "sync.gist": "823c2d92cb927d5043d58843710e65d3",
+    "sync.quietSync": true,
+    "syncSettings.resources": ["extensions", "keybindings", "settings", "snippets"],
+    "syncSettings.keybindingsPerPlatform": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "todo-tree.regex.regex": "(//+|#+|<!--|;|/*)\\s*($TAGS)",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.enablePreview": true,
+    "workbench.startupEditor": "none"
+}
