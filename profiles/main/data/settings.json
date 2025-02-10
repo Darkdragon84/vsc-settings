@@ -73,12 +73,12 @@
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "onFocusChange",
     "files.exclude": {
-        "**/*.egg-info": true,
+        "**/__pycache__": true,
         "**/.idea": true,
         "**/.mypy_cache": true,
         "**/.pytest_cache": true,
         "**/.ruff_cache": true,
-        "**/__pycache__": true
+        "**/*.egg-info": true
     },
     "files.insertFinalNewline": true,
     "git.autofetch": true,
@@ -126,6 +126,10 @@
     "rust-analyzer.check.command": "clippy",
     "search.useGlobalIgnoreFiles": true,
     "security.workspace.trust.untrustedFiles": "open",
+    "syncSettings.crons": {
+        "download": "0 10 * * *", // at 10AM, every day
+        "review": "0 * * * *" // every hour
+    },
     "syncSettings.keybindingsPerPlatform": true,
     "syncSettings.resources": [
         "extensions",
