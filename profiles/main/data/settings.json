@@ -145,5 +145,8 @@
     "todo-tree.regex.regex": "(//+|#+|<!--|;|/*)\\s*($TAGS)",
     "workbench.colorTheme": "Default Dark+",
     "workbench.editor.enablePreview": true,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "yaml.customTags": [
+        "!reference sequence"
+    ]
 }
