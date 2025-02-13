@@ -1,8 +1,4 @@
-disabled:
-  - id: bierner.markdown-preview-github-styles
-    uuid: 00000000-0000-0000-0000-000000000000
-  - id: vv13.markdown-auto-preview
-    uuid: 00000000-0000-0000-0000-000000000000
+disabled: []
 enabled:
   - id: bungcip.better-toml
     uuid: 464f4ac7-af65-4aa9-9907-4ba7fa419085
