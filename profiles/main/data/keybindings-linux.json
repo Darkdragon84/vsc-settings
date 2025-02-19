@@ -209,7 +209,7 @@
         "when": "editorTextFocus && editorLangId == 'rust'"
     },
     {
-        "key": "ctrl+shift+alt+u",
+        "key": "ctrl+alt+u",
         "command": "editor.action.transformToUppercase"
     },
     {
@@ -218,7 +218,7 @@
         "when": "viewContainer.workbench.view.extensions.enabled"
     },
     {
-        "key": "ctrl+shift+alt+l",
+        "key": "ctrl+alt+l",
         "command": "editor.action.transformToLowercase"
     }
 ]
