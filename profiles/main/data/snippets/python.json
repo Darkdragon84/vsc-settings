@@ -20,7 +20,7 @@
 	"parametrized": {
 		"prefix": "param",
 		"body": [
-			"@pytest.mark.parametrize(\"${3/:.*//g}\", [])", // removes type annotations
+			"@pytest.mark.parametrize(\"${3/([^:,]+):[^,]*(,\\s*)?/${1}$2/g}\", [])", // removes type annotations
 			"def test_${1:function}(${2:self, }${3}):", 
 			"    ${0:pass}"
 		]
