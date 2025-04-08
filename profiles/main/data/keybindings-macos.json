@@ -46,5 +46,9 @@
     {
         "key": "shift+alt+x",
         "command": "python.execInTerminal-icon"
+    },
+    {
+        "key": "alt+cmd+a",
+        "command": "git.stageAll"
     }
 ]
