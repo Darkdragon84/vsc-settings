@@ -149,5 +149,6 @@
     "yaml.customTags": [
         "!reference sequence"
     ],
-    "ansible.lightspeed.suggestions.enabled": false
+    "ansible.lightspeed.suggestions.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false
 }
