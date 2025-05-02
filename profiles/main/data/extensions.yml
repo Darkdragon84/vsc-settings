@@ -1,6 +1,4 @@
-disabled:
-  - id: tamasfe.even-better-toml
-    uuid: 00000000-0000-0000-0000-000000000000
+disabled: []
 enabled:
   - id: charliermarsh.ruff
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
@@ -28,5 +26,7 @@ enabled:
     uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
   - id: streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries
     uuid: be56a6df-0650-4af6-8231-f902414cf13b
+  - id: tamasfe.even-better-toml
+    uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
