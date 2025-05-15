@@ -20,6 +20,8 @@ enabled:
     uuid: f8cb4642-bc5c-46a1-be34-0977e817406c
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: rioj7.command-variable
+    uuid: cbb68238-96f0-4372-9e2c-7f9b10e757cf
   - id: rust-lang.rust-analyzer
     uuid: 06574cb4-e5dc-4631-8174-a543a4533621
   - id: streetsidesoftware.code-spell-checker
