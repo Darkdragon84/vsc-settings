@@ -10,7 +10,6 @@
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
         "editor.formatOnSave": true
     },
-    "ansible.lightspeed.suggestions.enabled": false,
     "autoDocstring.docstringFormat": "sphinx-notypes",
     "basedpyright.analysis.diagnosticMode": "workspace",
     "basedpyright.analysis.inlayHints.callArgumentNames": false,
@@ -64,7 +63,6 @@
     ],
     "debug.allowBreakpointsEverywhere": true,
     "debugpy.debugJustMyCode": false,
-    "diffEditor.ignoreTrimWhitespace": false,
     "editor.accessibilitySupport": "off",
     "editor.minimap.enabled": false,
     "editor.rulers": [
@@ -107,25 +105,7 @@
     "julia.enableTelemetry": false,
     "julia.symbolCacheDownload": true,
     "launch": {
-        "configurations": [
-            {
-                "console": "integratedTerminal",
-                "justMyCode": false,
-                "name": "Python Debugger: Current File",
-                "program": "${file}",
-                "request": "launch",
-                "type": "debugpy"
-            },
-            {
-                "console": "integratedTerminal",
-                "justMyCode": false,
-                "module": "${command:extension.commandvariable.file.relativeFileDotsNoExtension}",
-                "name": "Python Debugger: Current Module",
-                "request": "launch",
-                "type": "debugpy"
-            }
-        ],
-        "version": "0.2.0"
+        "configurations": []
     },
     "notebook.cellToolbarLocation": {
         "default": "right",
@@ -168,5 +148,7 @@
     "workbench.startupEditor": "none",
     "yaml.customTags": [
         "!reference sequence"
-    ]
+    ],
+    "ansible.lightspeed.suggestions.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false
 }
