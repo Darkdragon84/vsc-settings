@@ -133,6 +133,11 @@
     },
     "python.REPL.sendToNativeREPL": true,
     "python.terminal.executeInFileDir": false,
+    "python.testing.cwd": "",
+    "python.testing.pytestArgs": [
+        "-vv",
+        "-s"
+    ],
     "python.testing.pytestEnabled": true,
     "redhat.telemetry.enabled": false,
     "ruff.configurationPreference": "filesystemFirst",
