@@ -11,7 +11,7 @@
         "editor.formatOnSave": true
     },
     "ansible.lightspeed.suggestions.enabled": false,
-    "autoDocstring.docstringFormat": "sphinx-notypes",
+    "autoDocstring.docstringFormat": "google-notypes",
     "basedpyright.analysis.diagnosticMode": "workspace",
     "basedpyright.analysis.inlayHints.callArgumentNames": false,
     "basedpyright.analysis.inlayHints.genericTypes": true,
@@ -166,5 +166,6 @@
     ],
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
-    }
+    },
+    "autoDocstring.startOnNewLine": true
 }
