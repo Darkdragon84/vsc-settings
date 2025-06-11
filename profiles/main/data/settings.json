@@ -11,6 +11,10 @@
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
         "editor.formatOnSave": true
     },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
     "ansible.lightspeed.suggestions.enabled": false,
     "autoDocstring.docstringFormat": "google-notypes",
     "basedpyright.analysis.diagnosticMode": "workspace",
