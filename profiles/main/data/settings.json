@@ -11,7 +11,7 @@
         "editor.formatOnSave": true
     },
     "ansible.lightspeed.suggestions.enabled": false,
-    "autoDocstring.docstringFormat": "sphinx-notypes",
+    "autoDocstring.docstringFormat": "google-notypes",
     "basedpyright.analysis.diagnosticMode": "workspace",
     "basedpyright.analysis.inlayHints.callArgumentNames": false,
     "basedpyright.analysis.inlayHints.genericTypes": true,
@@ -168,5 +168,6 @@
     "workbench.startupEditor": "none",
     "yaml.customTags": [
         "!reference sequence"
-    ]
+    ],
+    "autoDocstring.startOnNewLine": true
 }
