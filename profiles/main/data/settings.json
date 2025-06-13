@@ -4,10 +4,15 @@
             "source.organizeImports": "explicit"
         },
         "editor.defaultFormatter": "charliermarsh.ruff",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "diffEditor.ignoreTrimWhitespace": false
     },
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
     "ansible.lightspeed.suggestions.enabled": false,
@@ -133,11 +138,6 @@
     },
     "python.REPL.sendToNativeREPL": true,
     "python.terminal.executeInFileDir": false,
-    "python.testing.cwd": "",
-    "python.testing.pytestArgs": [
-        "-vv",
-        "-s"
-    ],
     "python.testing.pytestEnabled": true,
     "redhat.telemetry.enabled": false,
     "ruff.configurationPreference": "filesystemFirst",
@@ -169,5 +169,8 @@
     "yaml.customTags": [
         "!reference sequence"
     ],
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
     "autoDocstring.startOnNewLine": true
 }
