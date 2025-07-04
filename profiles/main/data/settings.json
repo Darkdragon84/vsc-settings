@@ -172,5 +172,8 @@
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
-    "autoDocstring.startOnNewLine": true
+    "autoDocstring.startOnNewLine": true,
+    "[markdown]": {
+        "diffEditor.ignoreTrimWhitespace": true
+    }
 }
