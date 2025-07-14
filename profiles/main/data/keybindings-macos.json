@@ -50,5 +50,13 @@
     {
         "key": "alt+cmd+a",
         "command": "git.stageAll"
+    },
+    {
+        "key": "alt+cmd+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "alt+cmd+u",
+        "command": "editor.action.transformToUppercase"
     }
 ]
