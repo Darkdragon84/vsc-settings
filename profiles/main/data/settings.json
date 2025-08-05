@@ -1,24 +1,31 @@
 {
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[markdown]": {
+        "diffEditor.ignoreTrimWhitespace": true
+    },
     "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit"
         },
         "editor.defaultFormatter": "charliermarsh.ruff",
-        "editor.formatOnSave": true,
-        "diffEditor.ignoreTrimWhitespace": false
+        "editor.formatOnSave": true
     },
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
         "editor.formatOnSave": true
     },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "ansible.lightspeed.suggestions.enabled": false,
     "autoDocstring.docstringFormat": "google-notypes",
-    "basedpyright.analysis.diagnosticMode": "workspace",
+    "autoDocstring.startOnNewLine": true,
     "basedpyright.analysis.inlayHints.callArgumentNames": false,
+    "basedpyright.analysis.inlayHints.functionReturnTypes": true,
     "basedpyright.analysis.inlayHints.genericTypes": true,
     "cSpell.languageSettings": [
         {
@@ -80,14 +87,19 @@
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "onFocusChange",
     "files.exclude": {
-        "**/__pycache__": true,
+        "**/*.egg-info": true,
         "**/.idea": true,
         "**/.mypy_cache": true,
         "**/.pytest_cache": true,
         "**/.ruff_cache": true,
-        "**/*.egg-info": true
+        "**/__pycache__": true
     },
     "files.insertFinalNewline": true,
+    "files.associations": {
+        "*.template.yml": "jinja-yaml"
+    },
+    "ansible.validation.enabled": true,
+    "ansible.validation.lint.enabled": true,
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
@@ -95,6 +107,10 @@
     "git.openDiffOnClick": true,
     "git.openRepositoryInParentFolders": "never",
     "git.replaceTagsWhenPull": true,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.currentLine.enabled": false,
     "gitlens.views.commitDetails.files.layout": "tree",
     "gitlens.views.scm.grouped.views": {
         "branches": true,
@@ -137,8 +153,9 @@
         "jupyter-notebook": "right"
     },
     "python.REPL.sendToNativeREPL": true,
+    "python.languageServer": "None",
     "python.terminal.executeInFileDir": false,
-    "python.testing.pytestEnabled": true,    
+    "python.testing.pytestEnabled": true,
     // "python.testing.pytestArgs": [
     //     "-vv",
     //     "-s",
@@ -173,16 +190,5 @@
     "workbench.startupEditor": "none",
     "yaml.customTags": [
         "!reference sequence"
-    ],
-    "[yaml]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
-    },
-    "autoDocstring.startOnNewLine": true,
-    "[markdown]": {
-        "diffEditor.ignoreTrimWhitespace": true
-    },
-    "gitlens.currentLine.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.recentChange.enabled": false
+    ]
 }
