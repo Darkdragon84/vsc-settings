@@ -22,6 +22,9 @@
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "ansible.lightspeed.suggestions.enabled": false,
+    "ansible.playbook.arguments": "-i /home/valentin/parity/code/platform-administration/deployments/hosts.yml --vault-pass-file /home/valentin/parity/code/platform-administration/deployments/.vault_password",
+    "ansible.validation.enabled": true,
+    "ansible.validation.lint.enabled": false,
     "autoDocstring.docstringFormat": "google-notypes",
     "autoDocstring.startOnNewLine": true,
     "basedpyright.analysis.inlayHints.callArgumentNames": false,
@@ -85,21 +88,19 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
+    "files.associations": {
+        "*.template.yml": "jinja-yaml"
+    },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
-        "**/*.egg-info": true,
+        "**/__pycache__": true,
         "**/.idea": true,
         "**/.mypy_cache": true,
         "**/.pytest_cache": true,
         "**/.ruff_cache": true,
-        "**/__pycache__": true
+        "**/*.egg-info": true
     },
     "files.insertFinalNewline": true,
-    "files.associations": {
-        "*.template.yml": "jinja-yaml"
-    },
-    "ansible.validation.enabled": true,
-    "ansible.validation.lint.enabled": true,
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
@@ -152,8 +153,8 @@
         "default": "right",
         "jupyter-notebook": "right"
     },
-    "python.REPL.sendToNativeREPL": true,
     "python.languageServer": "None",
+    "python.REPL.sendToNativeREPL": true,
     "python.terminal.executeInFileDir": false,
     "python.testing.pytestEnabled": true,
     // "python.testing.pytestArgs": [
@@ -190,5 +191,6 @@
     "workbench.startupEditor": "none",
     "yaml.customTags": [
         "!reference sequence"
-    ]
+    ],
+    "ansible.validation.lint.arguments": "-i /home/valentin/parity/code/platform-administration/deployments/hosts.yml --vault-pass-file /home/valentin/parity/code/platform-administration/deployments/.vault_password"
 }
