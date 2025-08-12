@@ -1,4 +1,6 @@
-disabled: []
+disabled:
+  - id: rust-lang.rust-analyzer
+    uuid: 06574cb4-e5dc-4631-8174-a543a4533621
 enabled:
   - id: charliermarsh.ruff
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
@@ -28,8 +30,6 @@ enabled:
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: rioj7.command-variable
     uuid: cbb68238-96f0-4372-9e2c-7f9b10e757cf
-  - id: rust-lang.rust-analyzer
-    uuid: 06574cb4-e5dc-4631-8174-a543a4533621
   - id: samuelcolvin.jinjahtml
     uuid: 8b477a76-974c-403d-a454-58028c1709d1
   - id: streetsidesoftware.code-spell-checker
