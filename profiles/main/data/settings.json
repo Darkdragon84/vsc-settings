@@ -192,5 +192,6 @@
     "yaml.customTags": [
         "!reference sequence"
     ],
-    "ansible.validation.lint.arguments": "-i /home/valentin/parity/code/platform-administration/deployments/hosts.yml --vault-pass-file /home/valentin/parity/code/platform-administration/deployments/.vault_password"
+    "ansible.validation.lint.arguments": "-i /home/valentin/parity/code/platform-administration/deployments/hosts.yml --vault-pass-file /home/valentin/parity/code/platform-administration/deployments/.vault_password",
+    "basedpyright.analysis.diagnosticMode": "workspace"
 }
