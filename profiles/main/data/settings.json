@@ -21,10 +21,9 @@
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
-    "ansible.lightspeed.suggestions.enabled": false,
-    "ansible.playbook.arguments": "-i /home/valentin/parity/code/platform-administration/deployments/hosts.yml --vault-pass-file /home/valentin/parity/code/platform-administration/deployments/.vault_password",
+    "ansible.lightspeed.enabled": false,
     "ansible.validation.enabled": true,
-    "ansible.validation.lint.enabled": false,
+    "ansible.validation.lint.enabled": true,
     "autoDocstring.docstringFormat": "google-notypes",
     "autoDocstring.startOnNewLine": true,
     "basedpyright.analysis.inlayHints.callArgumentNames": false,
@@ -93,12 +92,12 @@
     },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
-        "**/__pycache__": true,
+        "**/*.egg-info": true,
         "**/.idea": true,
         "**/.mypy_cache": true,
         "**/.pytest_cache": true,
         "**/.ruff_cache": true,
-        "**/*.egg-info": true
+        "**/__pycache__": true
     },
     "files.insertFinalNewline": true,
     "git.autofetch": true,
@@ -153,8 +152,8 @@
         "default": "right",
         "jupyter-notebook": "right"
     },
-    "python.languageServer": "None",
     "python.REPL.sendToNativeREPL": true,
+    "python.languageServer": "None",
     "python.terminal.executeInFileDir": false,
     "python.testing.pytestEnabled": true,
     // "python.testing.pytestArgs": [
@@ -191,7 +190,5 @@
     "workbench.startupEditor": "none",
     "yaml.customTags": [
         "!reference sequence"
-    ],
-    "ansible.validation.lint.arguments": "-i /home/valentin/parity/code/platform-administration/deployments/hosts.yml --vault-pass-file /home/valentin/parity/code/platform-administration/deployments/.vault_password",
-    "basedpyright.analysis.diagnosticMode": "workspace"
+    ]
 }
