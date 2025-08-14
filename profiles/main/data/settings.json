@@ -190,5 +190,6 @@
     "workbench.startupEditor": "none",
     "yaml.customTags": [
         "!reference sequence"
-    ]
+    ],
+    "basedpyright.analysis.diagnosticMode": "workspace"
 }
