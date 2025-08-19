@@ -26,6 +26,7 @@
     "ansible.validation.lint.enabled": true,
     "autoDocstring.docstringFormat": "google-notypes",
     "autoDocstring.startOnNewLine": true,
+    "basedpyright.analysis.diagnosticMode": "workspace",
     "basedpyright.analysis.inlayHints.callArgumentNames": false,
     "basedpyright.analysis.inlayHints.functionReturnTypes": true,
     "basedpyright.analysis.inlayHints.genericTypes": true,
@@ -92,12 +93,12 @@
     },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
-        "**/*.egg-info": true,
+        "**/__pycache__": true,
         "**/.idea": true,
         "**/.mypy_cache": true,
         "**/.pytest_cache": true,
         "**/.ruff_cache": true,
-        "**/__pycache__": true
+        "**/*.egg-info": true
     },
     "files.insertFinalNewline": true,
     "git.autofetch": true,
@@ -152,15 +153,10 @@
         "default": "right",
         "jupyter-notebook": "right"
     },
-    "python.REPL.sendToNativeREPL": true,
     "python.languageServer": "None",
+    "python.REPL.sendToNativeREPL": true,
     "python.terminal.executeInFileDir": false,
     "python.testing.pytestEnabled": true,
-    // "python.testing.pytestArgs": [
-    //     "-vv",
-    //     "-s",
-    //     "--no-cov"
-    // ],
     "redhat.telemetry.enabled": false,
     "ruff.configurationPreference": "filesystemFirst",
     "ruff.importStrategy": "fromEnvironment",
@@ -190,6 +186,5 @@
     "workbench.startupEditor": "none",
     "yaml.customTags": [
         "!reference sequence"
-    ],
-    "basedpyright.analysis.diagnosticMode": "workspace"
+    ]
 }
