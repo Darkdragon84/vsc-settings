@@ -220,5 +220,20 @@
     {
         "key": "ctrl+alt+l",
         "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "-search.searchEditor.action.deleteFileResults",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "editor.action.removeBrackets",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+backspace",
+        "command": "-editor.action.removeBrackets",
+        "when": "editorTextFocus"
     }
 ]
