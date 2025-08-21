@@ -26,7 +26,6 @@
     "ansible.validation.lint.enabled": true,
     "autoDocstring.docstringFormat": "google-notypes",
     "autoDocstring.startOnNewLine": true,
-    "basedpyright.analysis.autoSearchPaths": true,
     "basedpyright.analysis.diagnosticMode": "workspace",
     "basedpyright.analysis.inlayHints.callArgumentNames": false,
     "basedpyright.analysis.inlayHints.functionReturnTypes": true,
@@ -94,12 +93,12 @@
     },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
-        "**/*.egg-info": true,
+        "**/__pycache__": true,
         "**/.idea": true,
         "**/.mypy_cache": true,
         "**/.pytest_cache": true,
         "**/.ruff_cache": true,
-        "**/__pycache__": true
+        "**/*.egg-info": true
     },
     "files.insertFinalNewline": true,
     "git.autofetch": true,
@@ -154,8 +153,8 @@
         "default": "right",
         "jupyter-notebook": "right"
     },
-    "python.REPL.sendToNativeREPL": true,
     "python.languageServer": "None",
+    "python.REPL.sendToNativeREPL": true,
     "python.terminal.executeInFileDir": false,
     "python.testing.pytestEnabled": true,
     "redhat.telemetry.enabled": false,
