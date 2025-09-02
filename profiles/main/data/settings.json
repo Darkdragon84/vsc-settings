@@ -25,7 +25,6 @@
     "ansible.validation.enabled": true,
     "ansible.validation.lint.enabled": true,
     "autoDocstring.docstringFormat": "google-notypes",
-    "autoDocstring.startOnNewLine": true,
     "basedpyright.analysis.diagnosticMode": "workspace",
     "basedpyright.analysis.inlayHints.callArgumentNames": false,
     "basedpyright.analysis.inlayHints.functionReturnTypes": true,
