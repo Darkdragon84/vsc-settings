@@ -34,6 +34,22 @@
             "languageId": "markdown"
         },
         {
+            "languageId": "rust",
+            "ignoreRegExpList": [
+                "CamelCase"
+            ],
+            "patterns": [
+                {
+                    "name": "CamelCase",
+                    "pattern": "/([A-Z][a-z0-9]*){2,}/g"
+                },
+                {
+                    "name": "snake_case",
+                    "pattern": "/([^_]+_)+[^_]+/g"
+                }
+            ]
+        },
+        {
             "ignoreRegExpList": [
                 "markdownInlineCode",
                 "docTest",
@@ -47,11 +63,11 @@
             "patterns": [
                 {
                     "name": "markdownInlineCode",
-                    "pattern": "/`[^`]*`/gi"
+                    "pattern": "/`[^`]*`/g"
                 },
                 {
                     "name": "docTest",
-                    "pattern": "/>>>.*/gi"
+                    "pattern": "/>>>.*/g"
                 },
                 {
                     "name": "reStructureParam",
@@ -61,20 +77,26 @@
         }
     ],
     "cSpell.userWords": [
-        "Rennweg",
-        "qubit",
-        "qubits",
-        "OpenQASM",
-        "cnot",
-        "plaquette",
-        "plaquettes",
-        "eigenstate",
-        "eigenstates",
-        "Qiskit",
+        "cbit",
+        "cbits",
         "clbit",
         "clbits",
-        "cbit",
-        "cbits"
+        "cnot",
+        "eigenstate",
+        "eigenstates",
+        "linalg",
+        "ndarray",
+        "nparray",
+        "numpy",
+        "OpenQASM",
+        "paritycore",
+        "plaquette",
+        "plaquettes",
+        "Qiskit",
+        "qubit",
+        "qubits",
+        "Rennweg",
+        "staticmethod"
     ],
     "debug.allowBreakpointsEverywhere": true,
     "debugpy.debugJustMyCode": false,
