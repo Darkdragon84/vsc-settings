@@ -182,6 +182,7 @@
     "ruff.configurationPreference": "filesystemFirst",
     "ruff.importStrategy": "fromEnvironment",
     "ruff.lineLength": 100,
+    "ruff.nativeServer": "on",
     "rust-analyzer.check.command": "clippy",
     "search.useGlobalIgnoreFiles": true,
     "security.workspace.trust.untrustedFiles": "open",
