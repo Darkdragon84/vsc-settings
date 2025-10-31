@@ -138,16 +138,17 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.views.commitDetails.files.layout": "tree",
     "gitlens.views.scm.grouped.views": {
-        "branches": true,
         "commits": true,
-        "contributors": true,
-        "launchpad": true,
+        "branches": true,
         "remotes": true,
-        "repositories": false,
-        "searchAndCompare": false,
         "stashes": true,
         "tags": true,
-        "worktrees": true
+        "worktrees": true,
+        "contributors": true,
+        "fileHistory": false,
+        "repositories": false,
+        "searchAndCompare": true,
+        "launchpad": true
     },
     "interactiveWindow.executeWithShiftEnter": false,
     "julia.enableTelemetry": false,
