@@ -82,6 +82,8 @@
         "clbit",
         "clbits",
         "cnot",
+        "cudaq",
+        "dotenv",
         "eigenstate",
         "eigenstates",
         "linalg",
@@ -90,19 +92,20 @@
         "numpy",
         "OpenQASM",
         "paritycore",
+        "parityos",
         "plaquette",
         "plaquettes",
         "Qiskit",
         "qubit",
         "qubits",
         "Rennweg",
-        "staticmethod"
+        "staticmethod",
+        "tket"
     ],
     "debug.allowBreakpointsEverywhere": true,
     "debugpy.debugJustMyCode": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.accessibilitySupport": "off",
-    "editor.minimap.enabled": false,
     "editor.rulers": [
         100
     ],
@@ -135,16 +138,17 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.views.commitDetails.files.layout": "tree",
     "gitlens.views.scm.grouped.views": {
-        "branches": true,
         "commits": true,
-        "contributors": true,
-        "launchpad": true,
+        "branches": true,
         "remotes": true,
-        "repositories": false,
-        "searchAndCompare": false,
         "stashes": true,
         "tags": true,
-        "worktrees": true
+        "worktrees": true,
+        "contributors": true,
+        "fileHistory": false,
+        "repositories": false,
+        "searchAndCompare": true,
+        "launchpad": true
     },
     "interactiveWindow.executeWithShiftEnter": false,
     "julia.enableTelemetry": false,
@@ -218,5 +222,5 @@
     "[github-actions-workflow]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
-    "editor.codeActions.triggerOnFocusChange": true
+    "window.confirmSaveUntitledWorkspace": false
 }
