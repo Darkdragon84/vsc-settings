@@ -1,6 +1,6 @@
 disabled:
   - id: julialang.language-julia
-    uuid: 038dd41f-4a41-48e3-87de-ab2ea4310780
+    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: charliermarsh.ruff
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
