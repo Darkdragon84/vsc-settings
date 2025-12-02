@@ -235,5 +235,19 @@
         "key": "ctrl+alt+backspace",
         "command": "-editor.action.removeBrackets",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+pageup",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "alt+pagedown",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "end",
+        "command": "-cursorEnd",
+        "when": "textInputFocus"
     }
 ]
