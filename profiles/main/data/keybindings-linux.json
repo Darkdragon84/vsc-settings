@@ -241,7 +241,7 @@
         "command": "cursorLineStart"
     },
     {
-        "key": "alt+pagedown",
+        "key": "end",
         "command": "cursorEnd",
         "when": "textInputFocus"
     },
