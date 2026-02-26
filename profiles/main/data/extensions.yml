@@ -12,8 +12,6 @@ enabled:
     uuid: 01826860-d71c-4734-9cf8-dc1c07baa5f9
   - id: Gruntfuggly.todo-tree
     uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
-  - id: julialang.language-julia
-    uuid: 038dd41f-4a41-48e3-87de-ab2ea4310780
   - id: mhutchie.git-graph
     uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
   - id: ms-python.debugpy
