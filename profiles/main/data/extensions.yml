@@ -1,6 +1,6 @@
 disabled:
   - id: eamodio.gitlens
-    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
+    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: charliermarsh.ruff
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
