@@ -249,5 +249,9 @@
         "key": "end",
         "command": "-cursorEnd",
         "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+z",
+        "command": "-redo"
     }
 ]
