@@ -78,10 +78,6 @@
         "when": "terminal.active"
     },
     {
-        "key": "shift+cmd+down",
-        "command": "editor.action.duplicateSelection"
-    },
-    {
         "key": "cmd+right",
         "command": "workbench.action.navigateForward",
         "when": "canNavigateForward"
@@ -108,5 +104,25 @@
     {
         "key": "shift+cmd+z",
         "command": "-redo"
+    },
+    {
+        "key": "shift+cmd+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
