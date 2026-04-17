@@ -166,7 +166,6 @@
     "interactiveWindow.executeWithShiftEnter": false,
     "julia.enableTelemetry": false,
     "julia.symbolCacheDownload": true,
-    "keyboard.dispatch": "keyCode",
     "launch": {
         "configurations": [
             {
