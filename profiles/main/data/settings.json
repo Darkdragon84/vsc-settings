@@ -226,5 +226,6 @@
     "workbench.startupEditor": "none",
     "yaml.customTags": [
         "!reference sequence"
-    ]
+    ],
+    "claudeCode.preferredLocation": "panel"
 }
