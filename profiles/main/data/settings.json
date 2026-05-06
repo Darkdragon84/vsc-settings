@@ -221,11 +221,11 @@
     "terminal.integrated.sendKeybindingsToShell": true,
     "todo-tree.regex.regex": "(//+|#+|<!--|;|/*)\\s*($TAGS)",
     "window.confirmSaveUntitledWorkspace": false,
-    "workbench.colorTheme": "Dark+",
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
     "yaml.customTags": [
         "!reference sequence"
     ],
     "claudeCode.preferredLocation": "panel",
+    "workbench.colorTheme": "Default Dark+",
 }
