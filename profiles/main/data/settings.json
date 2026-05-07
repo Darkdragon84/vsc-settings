@@ -231,4 +231,7 @@
     "claudeCode.environmentVariables": [
         
     ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
