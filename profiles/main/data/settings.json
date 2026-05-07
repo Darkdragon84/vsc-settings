@@ -228,4 +228,7 @@
     ],
     "claudeCode.preferredLocation": "panel",
     "workbench.colorTheme": "Default Dark+",
+    "claudeCode.environmentVariables": [
+        
+    ],
 }
