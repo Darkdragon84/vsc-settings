@@ -1,6 +1,4 @@
-disabled:
-  - id: redhat.ansible
-    uuid: f8cb4642-bc5c-46a1-be34-0977e817406c
+disabled: []
 enabled:
   - id: Anthropic.claude-code
     uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
@@ -26,6 +24,8 @@ enabled:
     uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
   - id: njpwerner.autodocstring
     uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
+  - id: redhat.ansible
+    uuid: f8cb4642-bc5c-46a1-be34-0977e817406c
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: rioj7.command-variable
