@@ -40,7 +40,5 @@ enabled:
     uuid: be56a6df-0650-4af6-8231-f902414cf13b
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
-  - id: waderyan.gitblame
-    uuid: 2335b326-c334-4e81-bc51-c408fcec6e7c
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
