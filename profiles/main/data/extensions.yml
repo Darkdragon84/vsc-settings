@@ -1,6 +1,4 @@
 disabled:
-  - id: detachhead.basedpyright
-    uuid: 249aa903-c0c5-4eb3-9deb-06895c663b8b
   - id: redhat.ansible
     uuid: f8cb4642-bc5c-46a1-be34-0977e817406c
 enabled:
@@ -8,6 +6,8 @@ enabled:
     uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
   - id: charliermarsh.ruff
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
+  - id: detachhead.basedpyright
+    uuid: 249aa903-c0c5-4eb3-9deb-06895c663b8b
   - id: eamodio.gitlens
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: esbenp.prettier-vscode
