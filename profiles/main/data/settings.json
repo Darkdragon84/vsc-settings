@@ -227,7 +227,7 @@
         "!reference sequence"
     ],
     "claudeCode.preferredLocation": "panel",
-    "workbench.colorTheme": "Dark+",
+    "workbench.colorTheme": "Default Dark+",
     "claudeCode.environmentVariables": [
         
     ],
