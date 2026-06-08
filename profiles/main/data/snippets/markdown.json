@@ -12,11 +12,18 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"cro9ss-reference": {
+	"api-cross-reference": {
 		"prefix": "_ref",
 		"body": [
 			"{any}`$1`"
 		],
 		"description": "Insert cross reference with 'any' role"
+	},
+	"doc-cross-reference": {
+		"prefix": "_doc",
+		"body": [
+			"{doc}`$1`"
+		],
+		"description": "Insert cross reference with 'doc' role"
 	}
 }
