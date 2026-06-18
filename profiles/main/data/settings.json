@@ -126,7 +126,8 @@
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
     "files.associations": {
-        "*.template.yml": "jinja-yaml"
+        "*.template.yml": "jinja-yaml",
+        "*.template.toml": "jinja-toml"
     },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
