@@ -205,8 +205,8 @@
     "search.useGlobalIgnoreFiles": true,
     "security.workspace.trust.untrustedFiles": "open",
     "syncSettings.crons": {
-        "download": "0 10 * * *", // at 10AM, every day
-        "review": "0 * * * *" // every hour
+        "download": "0 11 * * *", // at 11AM, every day
+        "review": "0 10 * * *" // at 10AM, every day
     },
     "syncSettings.keybindingsPerPlatform": true,
     "syncSettings.resources": [
