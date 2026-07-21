@@ -1,238 +1,222 @@
 {
-    "[dockercompose]": {
-        "editor.autoIndent": "advanced",
-        "editor.defaultFormatter": "redhat.vscode-yaml",
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2
-    },
-    "[github-actions-workflow]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[markdown]": {
-        "diffEditor.ignoreTrimWhitespace": true
-    },
-    "[python]": {
-        "diffEditor.ignoreTrimWhitespace": false,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "explicit"
-        },
-        "editor.defaultFormatter": "charliermarsh.ruff",
-        "editor.formatOnSave": true
-    },
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer",
-        "editor.formatOnSave": true
-    },
-    "[yaml]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
-    },
-    "ansible.lightspeed.enabled": false,
-    "ansible.validation.enabled": true,
-    "ansible.validation.lint.enabled": true,
-    "autoDocstring.docstringFormat": "google-notypes",
-    "basedpyright.analysis.diagnosticMode": "workspace",
-    "basedpyright.analysis.inlayHints.callArgumentNames": false,
-    "basedpyright.analysis.inlayHints.functionReturnTypes": true,
-    "basedpyright.analysis.inlayHints.genericTypes": true,
-    "cSpell.languageSettings": [
-        {
-            "languageId": "markdown"
-        },
-        {
-            "ignoreRegExpList": [
-                "CamelCase"
-            ],
-            "languageId": "rust",
-            "patterns": [
-                {
-                    "name": "CamelCase",
-                    "pattern": "/([A-Z][a-z0-9]*){2,}/g"
-                },
-                {
-                    "name": "snake_case",
-                    "pattern": "/([^_]+_)+[^_]+/g"
-                }
-            ]
-        },
-        {
-            "ignoreRegExpList": [
-                "markdownInlineCode",
-                "docTest",
-                "reStructureParam"
-            ],
-            "includeRegExpList": [
-                "pythonDocstring",
-                "comments"
-            ],
-            "languageId": "python",
-            "patterns": [
-                {
-                    "name": "markdownInlineCode",
-                    "pattern": "/`[^`]*`/g"
-                },
-                {
-                    "name": "docTest",
-                    "pattern": "/>>>.*/g"
-                },
-                {
-                    "name": "reStructureParam",
-                    "pattern": "/:(param|return) [^:]*:/gi"
-                },
-            ]
-        }
-    ],
-    "cSpell.userWords": [
-        "bitstrings",
-        "cbit",
-        "cbits",
-        "clbit",
-        "clbits",
-        "cnot",
-        "cudaq",
-        "dotenv",
-        "eigenstate",
-        "eigenstates",
-        "linalg",
-        "ndarray",
-        "nparray",
-        "numpy",
-        "OpenQASM",
-        "paritycore",
-        "parityos",
-        "plaquette",
-        "plaquettes",
-        "Qiskit",
-        "qubit",
-        "qubits",
-        "Rennweg",
-        "staticmethod",
-        "tket"
-    ],
-    "debug.allowBreakpointsEverywhere": true,
-    "debugpy.debugJustMyCode": false,
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true,
+  },
+  "[python]": {
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.accessibilitySupport": "off",
-    "editor.rulers": [
-        100
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true,
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "ansible.lightspeed.enabled": false,
+  "ansible.validation.enabled": true,
+  "ansible.validation.lint.enabled": true,
+  "autoDocstring.docstringFormat": "google-notypes",
+  "basedpyright.analysis.diagnosticMode": "workspace",
+  "basedpyright.analysis.inlayHints.callArgumentNames": false,
+  "basedpyright.analysis.inlayHints.functionReturnTypes": true,
+  "basedpyright.analysis.inlayHints.genericTypes": true,
+  "cSpell.languageSettings": [
+    {
+      "languageId": "markdown",
+    },
+    {
+      "ignoreRegExpList": ["CamelCase"],
+      "languageId": "rust",
+      "patterns": [
+        {
+          "name": "CamelCase",
+          "pattern": "/([A-Z][a-z0-9]*){2,}/g",
+        },
+        {
+          "name": "snake_case",
+          "pattern": "/([^_]+_)+[^_]+/g",
+        },
+      ],
+    },
+    {
+      "ignoreRegExpList": ["markdownInlineCode", "docTest", "reStructureParam"],
+      "includeRegExpList": ["pythonDocstring", "comments"],
+      "languageId": "python",
+      "patterns": [
+        {
+          "name": "markdownInlineCode",
+          "pattern": "/`[^`]*`/g",
+        },
+        {
+          "name": "docTest",
+          "pattern": "/>>>.*/g",
+        },
+        {
+          "name": "reStructureParam",
+          "pattern": "/:(param|return) [^:]*:/gi",
+        },
+      ],
+    },
+  ],
+  "cSpell.userWords": [
+    "bitstrings",
+    "cbit",
+    "cbits",
+    "clbit",
+    "clbits",
+    "cnot",
+    "cudaq",
+    "dotenv",
+    "eigenstate",
+    "eigenstates",
+    "linalg",
+    "ndarray",
+    "nparray",
+    "numpy",
+    "OpenQASM",
+    "paritycore",
+    "parityos",
+    "plaquette",
+    "plaquettes",
+    "Qiskit",
+    "qubit",
+    "qubits",
+    "Rennweg",
+    "staticmethod",
+    "tket",
+  ],
+  "debug.allowBreakpointsEverywhere": true,
+  "debugpy.debugJustMyCode": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.accessibilitySupport": "off",
+  "editor.rulers": [100],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.template.yml": "jinja-yaml",
+    "*.template.toml": "jinja-toml",
+  },
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.idea": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/.ruff_cache": true,
+    "**/*.egg-info": true,
+  },
+  "files.insertFinalNewline": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.mergeEditor": true,
+  "git.openDiffOnClick": true,
+  "git.openRepositoryInParentFolders": "never",
+  "git.replaceTagsWhenPull": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "gitlens.views.scm.grouped.views": {
+    "branches": true,
+    "commits": true,
+    "contributors": true,
+    "fileHistory": false,
+    "launchpad": true,
+    "remotes": true,
+    "repositories": false,
+    "searchAndCompare": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+  },
+  "interactiveWindow.executeWithShiftEnter": false,
+  "julia.enableTelemetry": false,
+  "julia.symbolCacheDownload": true,
+  "launch": {
+    "configurations": [
+      {
+        "console": "integratedTerminal",
+        "justMyCode": false,
+        "name": "Python Debugger: Current File",
+        "program": "${file}",
+        "request": "launch",
+        "type": "debugpy",
+      },
+      {
+        "console": "integratedTerminal",
+        "justMyCode": false,
+        "module": "${command:extension.commandvariable.file.relativeFileDotsNoExtension}",
+        "name": "Python Debugger: Current Module",
+        "request": "launch",
+        "type": "debugpy",
+      },
     ],
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "extensions.ignoreRecommendations": true,
-    "files.associations": {
-        "*.template.yml": "jinja-yaml",
-        "*.template.toml": "jinja-toml"
-    },
-    "files.autoSave": "onFocusChange",
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/.idea": true,
-        "**/.mypy_cache": true,
-        "**/.pytest_cache": true,
-        "**/.ruff_cache": true,
-        "**/*.egg-info": true
-    },
-    "files.insertFinalNewline": true,
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "git.mergeEditor": true,
-    "git.openDiffOnClick": true,
-    "git.openRepositoryInParentFolders": "never",
-    "git.replaceTagsWhenPull": true,
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.views.commitDetails.files.layout": "tree",
-    "gitlens.views.scm.grouped.views": {
-        "branches": true,
-        "commits": true,
-        "contributors": true,
-        "fileHistory": false,
-        "launchpad": true,
-        "remotes": true,
-        "repositories": false,
-        "searchAndCompare": true,
-        "stashes": true,
-        "tags": true,
-        "worktrees": true
-    },
-    "interactiveWindow.executeWithShiftEnter": false,
-    "julia.enableTelemetry": false,
-    "julia.symbolCacheDownload": true,
-    "launch": {
-        "configurations": [
-            {
-                "console": "integratedTerminal",
-                "justMyCode": false,
-                "name": "Python Debugger: Current File",
-                "program": "${file}",
-                "request": "launch",
-                "type": "debugpy"
-            },
-            {
-                "console": "integratedTerminal",
-                "justMyCode": false,
-                "module": "${command:extension.commandvariable.file.relativeFileDotsNoExtension}",
-                "name": "Python Debugger: Current Module",
-                "request": "launch",
-                "type": "debugpy"
-            }
-        ],
-        "version": "0.2.0"
-    },
-    "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "right"
-    },
-    "python.languageServer": "None",
-    "python.REPL.sendToNativeREPL": true,
-    "python.terminal.executeInFileDir": false,
-    "python.testing.pytestEnabled": true,
-    "redhat.telemetry.enabled": false,
-    "ruff.configurationPreference": "filesystemFirst",
-    "ruff.importStrategy": "fromEnvironment",
-    "ruff.lineLength": 100,
-    "ruff.nativeServer": "on",
-    "rust-analyzer.check.command": "clippy",
-    "search.useGlobalIgnoreFiles": true,
-    "security.workspace.trust.untrustedFiles": "open",
-    "syncSettings.crons": {
-        "download": "0 11 * * *", // at 11AM, every day
-        "review": "0 10 * * *" // at 10AM, every day
-    },
-    "syncSettings.keybindingsPerPlatform": true,
-    "syncSettings.resources": [
-        "extensions",
-        "keybindings",
-        "settings",
-        "snippets"
-    ],
-    "terminal.integrated.commandsToSkipShell": [
-        "language-julia.interrupt"
-    ],
-    "terminal.integrated.inheritEnv": false,
-    "terminal.integrated.sendKeybindingsToShell": true,
-    "todo-tree.regex.regex": "(//+|#+|<!--|;|/*)\\s*($TAGS)",
-    "window.confirmSaveUntitledWorkspace": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.startupEditor": "none",
-    "yaml.customTags": [
-        "!reference sequence"
-    ],
-    "claudeCode.preferredLocation": "panel",
-    "workbench.colorTheme": "Dark+",
-    "claudeCode.environmentVariables": [
-        
-    ],
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+    "version": "0.2.0",
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "right",
+  },
+  "python.languageServer": "None",
+  "python.REPL.sendToNativeREPL": true,
+  "python.terminal.executeInFileDir": false,
+  "python.testing.pytestEnabled": true,
+  "redhat.telemetry.enabled": false,
+  "ruff.configurationPreference": "filesystemFirst",
+  "ruff.importStrategy": "fromEnvironment",
+  "ruff.lineLength": 100,
+  "ruff.nativeServer": "on",
+  "rust-analyzer.check.command": "clippy",
+  "search.useGlobalIgnoreFiles": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "syncSettings.crons": {
+    "download": "0 11 * * *", // at 11AM, every day
+    "review": "0 10 * * *", // at 10AM, every day
+  },
+  "syncSettings.keybindingsPerPlatform": true,
+  "syncSettings.resources": [
+    "extensions",
+    "keybindings",
+    "settings",
+    "snippets",
+  ],
+  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "todo-tree.regex.regex": "(//+|#+|<!--|;|/*)\\s*($TAGS)",
+  "todo-tree.ripgrep.ripgrep": "/usr/bin/rg",
+  "window.confirmSaveUntitledWorkspace": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "yaml.customTags": ["!reference sequence"],
+  "claudeCode.preferredLocation": "panel",
+  "workbench.colorTheme": "Dark+",
+  "claudeCode.environmentVariables": [],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
 }
