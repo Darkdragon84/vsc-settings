@@ -16,7 +16,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[markdown]": {
-    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
   },
   "[python]": {
     "diffEditor.ignoreTrimWhitespace": false,
