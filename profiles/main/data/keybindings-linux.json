@@ -253,5 +253,13 @@
     {
         "key": "ctrl+shift+z",
         "command": "-redo"
+    },
+    {
+        "key": "ctrl+k ctrl+right",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "ctrl+k ctrl+\\",
+        "command": "-workbench.action.splitEditorRight"
     }
 ]
