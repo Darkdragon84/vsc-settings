@@ -261,9 +261,5 @@
     {
         "key": "ctrl+k ctrl+\\",
         "command": "-workbench.action.splitEditorRight"
-    },
-    {
-        "key": "ctrl+k ctrl+w",
-        "command": "workbench.action.openWorkspace"
     }
 ]
