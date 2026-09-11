@@ -1,6 +1,6 @@
 disabled:
   - id: Anthropic.claude-code
-    uuid: 00000000-0000-0000-0000-000000000000
+    uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
   - id: ms-python.vscode-python-envs
     uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
   - id: redhat.ansible
