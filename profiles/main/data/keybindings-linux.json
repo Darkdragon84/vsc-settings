@@ -265,5 +265,18 @@
     {
         "key": "ctrl+k ctrl+w",
         "command": "workbench.action.openWorkspace"
+    },
+    {
+        "key": "ctrl+k right",
+        "command": "-views.moveViewRight",
+        "when": "focusedView != ''"
+    },
+    {
+        "key": "ctrl+k right",
+        "command": "-workbench.action.moveActiveEditorGroupRight"
+    },
+    {
+        "key": "ctrl+k right",
+        "command": "workbench.action.moveEditorToRightGroup"
     }
 ]
