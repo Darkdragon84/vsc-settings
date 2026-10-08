@@ -151,6 +151,7 @@
   "git.openDiffOnClick": true,
   "git.openRepositoryInParentFolders": "never",
   "git.replaceTagsWhenPull": true,
+  "git.useIntegratedAskPass": false,
   "interactiveWindow.executeWithShiftEnter": false,
   "keyboard.dispatch": "keyCode",
   "launch": {
