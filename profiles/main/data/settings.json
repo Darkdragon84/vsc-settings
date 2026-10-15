@@ -216,5 +216,6 @@
   "workbench.startupEditor": "none",
   "yaml.customTags": [
     "!reference sequence"
-  ]
+  ],
+  "claudeCode.hideOnboarding": true
 }
